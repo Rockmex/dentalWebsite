@@ -4181,3 +4181,12 @@ body{
     padding-bottom: 20px;
 
 }
+
+.clickable-text {
+	color: #1A76D1 !important;
+}
+
+.clickable-text:hover {
+	color: #16538f !important;
+}
+

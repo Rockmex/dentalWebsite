@@ -47,17 +47,7 @@ Version:	1.1
 		/*====================================
 			Sticky Header JS
 		======================================*/ 
-		jQuery(window).on('scroll', function() {
-			if ($(this).scrollTop() > 100) {
-				$('.header').addClass("sticky");
-			} else {
-				$('.header').removeClass("sticky");
-			}
-		});
-		
-		$('.pro-features .get-pro').on( "click", function(){
-			$('.pro-features').toggleClass('active');
-		});
+
 		
 		/*====================================
 			Search JS
